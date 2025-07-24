@@ -65,7 +65,7 @@ func (h *hashTable) djb2Hash(key string) int32 {
 		hash = -hash
 	}
 
-	return hash % 1013
+	return hash % 1013 // tamnaho total de 1.000
 }
 func (h *hashTable) loseloseHash(key string) int32 {
 	var hash int32
