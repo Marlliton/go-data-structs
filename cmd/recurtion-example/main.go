@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(recursion.Factorial(5000))
+	fmt.Println(recursion.Factorial(6))
+	fmt.Println(recursion.Fibonacci(10))
 }
